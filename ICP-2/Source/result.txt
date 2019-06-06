@@ -1,7 +1,0 @@
-1)  bootstrap fuield and normal 
-call mg
-2) routing tables in asp.net
-3) raser views htmls helpers
-4) dependency injection 
-5) REST
-6)
