@@ -15,7 +15,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 	  public void map(LongWritable key, Text value, Context context)  throws IOException, InterruptedException {
 		  String line = value.toString();
 		  StringTokenizer loop = new StringTokenizer(line);
-		  while (loop.hasMoreTokens()) {
+		   while (loop.hasMoreTokens()) {
 		    word.set(loop.nextToken().toLowerCase());
 			 context.write(word, one);
 			
