@@ -8,7 +8,7 @@ import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
 
 
 
-public class Reduce extends Reducer<Text, IntWritable, Text, IntWritable> {
+public class Reduce extends Reducer< Text, IntWritable, Text, IntWritable> {
 
 private MultipleOutputs<Text, IntWritable> multipleOutputs;
 
