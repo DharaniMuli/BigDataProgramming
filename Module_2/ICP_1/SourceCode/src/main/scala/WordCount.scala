@@ -35,8 +35,8 @@ val counts = words.map(word => (word, 1)).reduceByKey{case (x, y) => x + y}
 .sortBy(_._1, ascending = true) // code for sorting
 println(counts.take(4).foreach(println))
 //
-//    val result = words.distinct()
-//    println(result.collect().mkString(","))
+ val result = words.distinct()
+ println(result.collect().mkString(","))
 //    println("Word Count",words.count())
 //    // Save the word count back out to a text file, causing evaluation.
     counts.saveAsTextFile("WordCountOutputtake")
