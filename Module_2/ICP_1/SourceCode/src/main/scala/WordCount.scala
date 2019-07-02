@@ -19,26 +19,26 @@ object WordCount {
     val input = sc.textFile("input.txt")
     // Split up into words.
 
-    val words = input.flatMap(line => line.split(" "))
-    //.filter(value => value=="good")
-    val wCount = words.filter(word => Character.isLetter(word.head)) // ignores numbers
-      .map(word => (word.head, 1)) // gets the first letter of each word
-    val result = wCount.reduceByKey((x, y) => x + y)
-    result.collect().foreach(println)
+//    Bonus code starts
+//    val words = input.flatMap(line => line.split(" "))
+//    //.filter(value => value=="good")
+//    val wCount = words.filter(word => Character.isLetter(word.head)) // ignores numbers
+//      .map(word => (word.head, 1)) // gets the first letter of each word
+//    val result = wCount.reduceByKey((x, y) => x + y)
+//    result.collect().foreach(println)
+//    Bonus code ends
 
-// val words = input.flatMap(line => line.split(" "))
-//   //.filter(value => value=="hello")
-//
-//
+ val words = input.flatMap(line => line.split(" "))
+//   //.filter(value => value=="hello") // code for filtering
 //    // Transform into word and count.
-//val counts = words.map(word => (word, 1)).reduceByKey{case (x, y) => x + y}
-////.sortBy(_._1, ascending = true)
-////    println(counts.take(7).foreach(println))
+val counts = words.map(word => (word, 1)).reduceByKey{case (x, y) => x + y}
+.sortBy(_._1, ascending = true) // code for sorting
+println(counts.take(4).foreach(println))
 //
 //    val result = words.distinct()
 //    println(result.collect().mkString(","))
 //    println("Word Count",words.count())
 //    // Save the word count back out to a text file, causing evaluation.
-    result.saveAsTextFile("WordCountOutputCharCount")
+    counts.saveAsTextFile("WordCountOutputtake")
   }
 }
