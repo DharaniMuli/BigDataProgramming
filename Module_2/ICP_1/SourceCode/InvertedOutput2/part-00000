@@ -1,0 +1,6 @@
+(are,Vector(Doc2))
+(this,Vector(Doc1))
+(is,Vector(Doc1))
+(Hello,Vector(Doc2))
+(team7,Vector(Doc1, Doc2))
+(We,Vector(Doc2))
