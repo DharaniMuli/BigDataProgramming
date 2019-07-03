@@ -11,7 +11,7 @@ object SecondarySort {
     val sc = new SparkContext(conf)
     // Load our input data.
     //val input =  sc.textFile(inputFile)
-    val input = sc.textFile("iss.txt")
+    val input = sc.textFile("SSInput.txt")
     // Split up into words.
     val intermediate = input.map(_.split(",")).map { k => ((k(0), k(1)), k(2)) }
 
@@ -26,7 +26,7 @@ object SecondarySort {
 
     //    output.foreach { println }
 
-    output.saveAsTextFile("OutputSecondarySort")
+    output.saveAsTextFile("SSortOuput")
 
   }
 }
