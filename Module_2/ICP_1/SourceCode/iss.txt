@@ -1,6 +1,6 @@
 Missouri,High,80
-Nebraska,Low, 20
-Missouri,High,80
+Nebraska,Low,20
+Missouri,High,70
 Florida,High,50
-Nebraska,High,60
-Florida,Low,10
+Nebraska,Low,60
+Florida,High,10
