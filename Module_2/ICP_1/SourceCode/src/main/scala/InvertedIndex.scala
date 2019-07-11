@@ -22,6 +22,7 @@ object InvertedIndex {
        println(map_ii.take(6).foreach(println))
        map_ii.saveAsTextFile("InvertedOutputFilter")
 
+    val windowedWordCounts = pairs.reduceByKeyAndWindow((a:Int,b:Int) => (a + b), Seconds(30), Seconds(10))
 
   }
 }

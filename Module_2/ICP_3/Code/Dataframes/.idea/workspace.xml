@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3f20412-4d94-486d-a745-d4fdc7b1e15b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../ICP_2/mergesort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ICP_2/mergesort/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ICP_4/Code/spark-streaming/SparkSocket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ICP_4/Code/spark-streaming/tcpsocket.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +76,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="7" />
+    <option name="y" value="54" />
+    <option name="width" value="1386" />
+    <option name="height" value="759" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -105,7 +108,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../VipraModelHub/BackendLayer/TestModelHubBackend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ICP_4/Code/spark-streaming" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,9 +209,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10491072" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10491072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
