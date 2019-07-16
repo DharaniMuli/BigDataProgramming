@@ -14,11 +14,12 @@ object SparkGraphFrame {
       .config("spark.master", "local")
       .getOrCreate()
 
-    val input= spark.read.format("csv").option("header","true").load("D:\\Semester-2\\BigDataPrgramming\\Module_2\\ICP_5\\Code\\Source code\\SparkGraphframe\\src\\main\\scala\\tripdata.csv")
+    val input= spark.read.format("csv").option("header","true").load
+    ("D:\\Semester-2\\BigDataPrgramming\\Module_2\\ICP_5\\Code\\Source code\\SparkGraphframe\\src\\main\\scala\\tripdata.csv")
 
 
-//    input.registerTempTable("df")
-//    spark.sql("SELECT CONCAT(k, ' ',  v) FROM df")
+    input.registerTempTable("df")
+    spark.sql("SELECT CONCAT(k, ' ',  v) FROM df")
 
 
     // drop duplicates
@@ -48,7 +49,9 @@ object SparkGraphFrame {
 //    g.edges.show()
 
 
-// val motifs = g.find("(50)-[e]->(70); (70)-[e2]->(50)").show()
+ val motifs = g.find("(50)-[e]->(70); (70)-[e2]->(50)").show()
+
+    
     val inDeg = g.inDegrees
     inDeg.orderBy(desc("inDegree")).limit(5).show()
 
