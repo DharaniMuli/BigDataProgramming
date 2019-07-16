@@ -51,7 +51,7 @@ object SparkGraphFrame {
 
  val motifs = g.find("(50)-[e]->(70); (70)-[e2]->(50)").show()
 
-    
+
     val inDeg = g.inDegrees
     inDeg.orderBy(desc("inDegree")).limit(5).show()
 
