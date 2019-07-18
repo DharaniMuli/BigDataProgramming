@@ -21,10 +21,10 @@ if __name__ == "__main__":
     # smalldf.select(smalldf.columns).distinct().show()
 
 
-    Dataframe1 = smalldf.filter(smalldf['Country'] == 'Canada')
+    Dataframe1 = smalldf.filter(smalldf['Country'] == 'Canada').show()
 
     Dataframe2 = smalldf.filter(smalldf['Country'] == 'United States')
 
     # UnionOperation = Dataframe1.union(Dataframe2).orderBy(smalldf['Gender']).show()
 
-    groupOperation = Dataframe1.union(Dataframe2).groupBy(smalldf['treatment']).count().show()
+    # groupOperation = Dataframe1.union(Dataframe2).groupBy(smalldf['treatment']).count().show()
