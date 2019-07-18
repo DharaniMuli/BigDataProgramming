@@ -37,8 +37,8 @@ object PageRanking {
         g.edges.show()
 //
 //    Finding TriangularCount
-    val results= g.triangleCount.run()
-    results.select("id", "count").show()
+//    val results= g.triangleCount.run()
+//    results.select("id", "count").show()
 
 //    BFS
     val paths: DataFrame = g.bfs.fromExpr("id = '50'").toExpr("id='47'").run()
@@ -47,20 +47,20 @@ object PageRanking {
     paths.show()
     paths1.show()
 //
-//    Page Ranking
-
-    val results =g.pageRank.resetProbability(0.15).tol(0.01).run()
-
-    val results1 =g.pageRank.resetProbability(0.15).maxIter(5).run()
-
-    val results2 = g.pageRank.resetProbability(0.15).maxIter(10).sourceId("50").run()
-    results1.vertices.select("id","PageRank").show()
-    results1.edges.select("src","dst","Weight").show()
-
-    // Saving
-
-    g.vertices.write.format("csv").save("Vertices2")
-
-    g.edges.write.format("csv").save("Edges2")
+////    Page Ranking
+//
+//    val results =g.pageRank.resetProbability(0.15).tol(0.01).run()
+//
+//    val results1 =g.pageRank.resetProbability(0.15).maxIter(5).run()
+//
+//    val results2 = g.pageRank.resetProbability(0.15).maxIter(10).sourceId("50").run()
+//    results1.vertices.select("id","PageRank").show()
+//    results1.edges.select("src","dst","Weight").show()
+//
+//    // Saving
+//
+//    g.vertices.write.format("csv").save("Vertices2")
+//
+//    g.edges.write.format("csv").save("Edges2")
   }
 }
