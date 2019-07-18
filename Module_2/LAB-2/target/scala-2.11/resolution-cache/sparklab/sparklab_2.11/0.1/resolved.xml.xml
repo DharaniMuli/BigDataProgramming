@@ -4,7 +4,7 @@
 		module="sparklab_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20190716154334"
+		publication="20190718000306"
 	>
 		<description>
 		SparkLab
@@ -34,5 +34,7 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.12" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-core_2.11" rev="2.1.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.1.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-graphx_2.11" rev="2.1.0" conf="compile->default(compile)"/>
+		<dependency org="graphframes" name="graphframes" rev="0.6.0-spark2.3-s_2.11" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
