@@ -1,41 +1,45 @@
-
+import org.apache.avro.generic.GenericData.StringType
 import org.apache.spark._
-import org.apache.spark.sql.types.{ArrayType, BooleanType, DataType, IntegerType, LongType, StringType, StructField, StructType}
-
-
+import org.apache.spark.sql.types.{StructField, StructType}
 import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.functions.udf
+
+
 
 object sparkdataframes {
   def main(args: Array[String]) {
 
-    System.setProperty("hadoop.home.dir", "C:\\winutils")
-    val sparkconf = new SparkConf().setAppName("sparkdataframes").setMaster("local[*]")
-    // Create a Scala Spark Context.
-    val sc = new SparkContext(sparkconf)
+    val spark = SparkSession
+      .builder()
+      .appName("SparkDataFrames")
+      .master("local")
+      .getOrCreate()
+    val df = spark.read.format("csv").option("header", "true").load(".\\ksdata.csv")
 
-    val input = sc.textFile("ksdata.csv")
+    //    df.show()
 
-//    input.foreach(println)
+    //    df.filter(df("category ") === "Poetry").show()
 
-//    val ksSchema = StructType(
-//        List(
-//          StructField("ID",IntegerType),
-//          StructField("name",StringType),
-//          StructField("Category", ArrayType(StringType)),
-//          StructField("main_Category",ArrayType(StringType)),
-//          StructField("goal", LongType),
-//          StructField("state",BooleanType),
-//          StructField("currency", StructType(
-//            List(
-//              StructField("country", StringType),
-//              StructField("pledged",IntegerType),
-//              StructField("usdpledged", IntegerType)
-//            )
-//          ))
-//
-//        )
-//      )
-//    )
+    //    df.groupBy(df("name ")).count().show()
+
+    //df.select(df("backers ")).distinct().show()
+    val Dataframe1 = df.filter(df("category ") === "Music").orderBy(df("currency ")).show()
+    //    val Dataframe2 = df.filter(df("state  ") === "successful").show()
+    val upper: String => String = _.toUpperCase
+
+    val upperUDF = udf(upper)
+    df.withColumn("category ", upperUDF()).show()
+    //  val ksSchema = StructType(
+    //    List(
+    //      StructField("ID",IntegerType,true),
+    //      StructField("name",StringType,true)
+    //
+    //    )
+    //  )
+    //  val df = sc.createDataFrame(
+    //    spark.sparkContext.parallelize(data),
+    //    schema
+    //  )
 
   }
 }
