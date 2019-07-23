@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23188d8c-794b-41e8-97b6-51ae1086edc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ICP_7/Code/ScalaMachineLearning/.idea/modules/MachineLearning-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ICP_7/Code/ScalaMachineLearning/.idea/modules/MachineLearning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ICP_7/Code/ScalaMachineLearning/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ICP_3/Code/Dataframes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_3/Code/Dataframes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/sparkdataframes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkdataframes.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,16 +46,28 @@
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkdataframes.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sparkdataframes.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/GraphFrames.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+            <state relative-caret-position="445">
+              <caret line="39" column="59" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="59" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -72,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/rdd.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="33" />
+              <caret line="40" column="33" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="33" />
               <folding>
                 <element signature="e#1#37#0" expanded="true" />
               </folding>
@@ -254,7 +261,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23240589" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.049099836" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -307,17 +314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/GraphFrames.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-            <marker date="1563428692877" expanded="true" signature="569:970" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/RDD2.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/RDD1.scala" />
     <entry file="file://$PROJECT_DIR$/ksdata.csv">
@@ -330,14 +326,14 @@
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/rdd.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="33" />
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="33" />
           <folding>
             <element signature="e#1#37#0" expanded="true" />
           </folding>
@@ -347,7 +343,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkdataframes.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
-          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/GraphFrames.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="39" column="59" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="59" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
