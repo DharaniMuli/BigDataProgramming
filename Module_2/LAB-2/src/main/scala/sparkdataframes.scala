@@ -23,23 +23,14 @@ object sparkdataframes {
     //    df.groupBy(df("name ")).count().show()
 
     //df.select(df("backers ")).distinct().show()
-    val Dataframe1 = df.filter(df("category ") === "Music").orderBy(df("currency ")).show()
-    //    val Dataframe2 = df.filter(df("state  ") === "successful").show()
-    val upper: String => String = _.toUpperCase
 
-    val upperUDF = udf(upper)
-    df.withColumn("category ", upperUDF()).show()
-    //  val ksSchema = StructType(
-    //    List(
-    //      StructField("ID",IntegerType,true),
-    //      StructField("name",StringType,true)
-    //
-    //    )
-    //  )
-    //  val df = sc.createDataFrame(
-    //    spark.sparkContext.parallelize(data),
-    //    schema
-    //  )
+    df.select("currency ", "country ").filter(df("country ")==="US").show()
+
+
+    def udfUppercase = udf((string: String) => string.toLowerCase())
+
+    // Convert a whole column to uppercase with a UDF.
+  df.withColumn("currency ", udfUppercase(df("currency "))).show()
 
   }
 }

@@ -2,71 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23188d8c-794b-41e8-97b6-51ae1086edc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/rdd.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP_7/Code/ScalaMachineLearning/.idea/modules/MachineLearning-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP_7/Code/ScalaMachineLearning/.idea/modules/MachineLearning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICP_7/Code/ScalaMachineLearning/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/src/main/scala/InvertedIndex.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/src/main/scala/InvertedIndex.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/src/main/scala/SecondarySort.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/src/main/scala/SecondarySort.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/src/main/scala/sparkdataframes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/src/main/scala/sparkdataframes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/InvertedIndex$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/InvertedIndex$$anonfun$2$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/InvertedIndex$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/InvertedIndex$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/InvertedIndex$$anonfun$4$$anonfun$apply$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/InvertedIndex$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/InvertedIndex$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/InvertedIndex$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/InvertedIndex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/SecondarySort$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/SecondarySort$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/SecondarySort$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/SecondarySort$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/SecondarySort$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/classes/SecondarySort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/default/sourcecode$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/default/sourcecode$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/default/sourcecode$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/default/sourcecode$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/target/scala-2.11/resolution-cache/reports/default-sourcecode$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_1/SourceCode/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_1/SourceCode/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ICP_3/Code/Dataframes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_3/Code/Dataframes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP_5/Code/Source code/SparkGraphframe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_5/Code/Source code/SparkGraphframe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/SparkLab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/SparkLab.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/Part2/Dataframes/Q1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Part2/Dataframes/Q1.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/Part2/Dataframes/Q2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Part2/Dataframes/Q2.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterAnalysis2/.idea/TwitterAnalysis2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterAnalysis2/.idea/TwitterAnalysis2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterAnalysis2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterAnalysis2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterAnalysis2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterAnalysis2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/sparkdataframes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/sparkdataframes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/GraphFrames$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/GraphFrames$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/sparkdataframes$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/sparkdataframes$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/sparklab-sparklab$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/sparklab/sparklab$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/sparklab/sparklab$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/sparklab/sparklab$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/sparklab/sparklab$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -109,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -117,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/sparkdataframes.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="265">
+              <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -129,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/rdd.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="221">
+              <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="33" />
               <folding>
                 <element signature="e#1#37#0" expanded="true" />
               </folding>
@@ -155,10 +97,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="7" />
-    <option name="y" value="54" />
+    <option name="x" value="-35" />
+    <option name="y" value="33" />
     <option name="width" value="1386" />
-    <option name="height" value="759" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -200,14 +142,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ICP_1/SourceCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -303,7 +245,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -312,14 +254,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.12274959" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23240589" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3846154" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2700491" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
@@ -378,13 +320,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/RDD2.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/RDD1.scala" />
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ksdata.csv">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="17">
@@ -392,10 +327,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/rdd.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="221">
+          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="33" />
           <folding>
             <element signature="e#1#37#0" expanded="true" />
           </folding>
@@ -404,8 +346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/sparkdataframes.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="265">
+          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
